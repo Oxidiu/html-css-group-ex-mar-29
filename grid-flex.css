@@ -20,3 +20,75 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+
+.body-container{
+  display:grid;
+  background-color: #c4ebf9;
+  padding: 35px;
+  grid-template-columns: auto;
+  grid-template-rows: 60px 60px auto 60px;
+  gap: 15px;
+}
+header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03bfb1;
+  color: aliceblue;
+}
+nav{
+  display: flex;
+  background-color: #33c361;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+}
+article{
+  display:flex;
+  flex-direction: row;
+  gap: 15px;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6edb6e;
+}
+aside ul{
+  list-style: none;
+  padding: 30px;
+  color: aliceblue;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.content{
+  background-color: #0f98c6;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+section{
+  background-color: #005b92;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+img{
+  width: 100px;
+}
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03bfb1;
+  color: aliceblue;
+}
